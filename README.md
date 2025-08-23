@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zCmYDy35)
 
-# Urban Data Explorer for LA Olympics Visitors: A Web-Based Visualization of Crime, Hospitality, Dining, and Mobility Trends
+# Neighborhood Visualization and Analysis: A Guide to Los Angeles for Travelers and Residents
 
 ## Project Overview
 

@@ -218,9 +218,10 @@ export default {
       }
     },
 
+    // Change accessToken to your own
     initializeMap() {
       console.log('Initializing map...');
-      mapboxgl.accessToken = 'pk.eyJ1IjoiY2luZHlqaWFuZzcyMyIsImEiOiJjbTN1ZzFvejIwaXRzMmtwanY2bHhyaGZhIn0.iF1yLwdVECmp-y83zYzYLg';
+      mapboxgl.accessToken = '####';
 
       this.map = new mapboxgl.Map({
         container: 'arc-map',

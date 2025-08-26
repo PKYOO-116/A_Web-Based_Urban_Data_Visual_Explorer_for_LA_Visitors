@@ -105,5 +105,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add any necessary styling here */
 </style>

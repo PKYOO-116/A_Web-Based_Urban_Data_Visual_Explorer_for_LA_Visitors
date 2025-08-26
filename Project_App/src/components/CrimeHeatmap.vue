@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       mapboxAccessToken:
-        "pk.eyJ1IjoicGt5b28iLCJhIjoiY20zeXFuamg2MXJiMDJqcTIwcmFmaGZwcCJ9.38iaSAmiK7Hv_Oc-i1741w",
+        "####", // Change to your own Access token
       mapboxStyle: "mapbox://styles/mapbox/dark-v10",
     };
   },

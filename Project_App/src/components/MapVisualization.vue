@@ -20,7 +20,7 @@ export default {
     };
   },
   mounted() {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaGh6aHE5OSIsImEiOiJjbTNudGN5emYxZXQ5Mmxvb3U2cHJ5a3F2In0.Uh3rIJqfU0Oy8X_1w4P4sQ';
+    mapboxgl.accessToken = ''; // Change to your own access token
 
     const map = new mapboxgl.Map({
       container: 'visualization-map-container',

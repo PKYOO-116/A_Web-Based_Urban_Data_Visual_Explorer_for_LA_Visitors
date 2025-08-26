@@ -11,16 +11,16 @@ export default {
   name: "BikeShareMap",
   data() {
     return {
-      mapboxAccessToken: "pk.eyJ1IjoibWluc2FuZ3kiLCJhIjoiY200OXBiaWIzMGRmdjJtbjdxdTd1MTM4OCJ9.gNk_JZD4BzCYsbQ0tzHl7w", // Your Mapbox token
+      mapboxAccessToken: "####", // Change Access token to your own
       mapboxStyle: "mapbox://styles/mapbox/dark-v10", // Mapbox style
       initialViewState: {
-        longitude: -118.2437, // Los Angeles longitude
-        latitude: 34.0522,    // Los Angeles latitude
+        longitude: -118.2437,
+        latitude: 34.0522,
         zoom: 10,
         pitch: 40,
         bearing: 0,
       },
-      tripData: [], // Add this to store the CSV data
+      tripData: [],
     };
   },
   mounted() {
@@ -41,10 +41,9 @@ export default {
         bearing: this.initialViewState.bearing,
       });
 
-      fetch("data/metro_trips.csv") // Update with your CSV path
+      fetch("data/metro_trips.csv")
         .then((response) => response.text())
         .then((csvText) => {
-          // Parse CSV and format data for ArcLayer
           this.tripData = this.parseCSV(csvText);
           
           const arcLayer = new ArcLayer({
